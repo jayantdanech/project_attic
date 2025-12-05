@@ -68,6 +68,6 @@ terraform init
 terraform plan
 terraform apply
 ```
-After the terraform apply, you will get the ALB to visit
+After the terraform apply, you will get the ALB to visit.  Make sure to use http not https, so it should be http://<alb_dns_name>
 
 **Note:  The ECS may take few minutes to get up and running, so be patient.**
