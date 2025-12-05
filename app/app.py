@@ -12,7 +12,7 @@ def get_client_ip():
     # Check X-forwarded-for if seen
     xff = request.headers.get("X-Forwarded-for", "")
     if xff:
-        return xff.split(","[0].strip())
+        return xff.split(",")[0].strip()
 
     # Fallback to remote address    
     return request.remote_addr or "not known"
