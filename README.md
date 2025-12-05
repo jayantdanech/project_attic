@@ -3,6 +3,7 @@
 ### Create a project workspace
 ```
 mkdir ~/workspace
+cd ~/workspace
 git clone https://github.com/jayantdanech/project_attic.git
 cd ~/workspace/project_attic
 ```
