@@ -15,6 +15,14 @@ docker build -t attic-app .
 docker run -it -d --name app_attic -p 8080:8080 attic-app
 ```
 
+At this point you will see your docker will be exposed to host port 8080 and will respond to "curl localhost:8080"
+
+EXAMPLE
+> jayant@devnode:~/workspace/project_attic/app$ curl localhost:8080
+>
+> {"ip":"172.17.0.1","timestamp":"2025-12-05T11:44:52.399853+00:00"}
+
+
 ### Configuring AWS:
 Make sure you have AWS cli configured on your machine and has credentials in "~/.aws/credentials"
 
