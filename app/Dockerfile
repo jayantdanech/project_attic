@@ -1,3 +1,7 @@
+# Author:  Jayant Danech
+# Date: 05.12.2025
+# Docker File
+
 FROM python:3.11-slim
 
 # Variables

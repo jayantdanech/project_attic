@@ -1,3 +1,7 @@
+# Author:  Jayant Danech
+# Date: 05.12.2025
+# Timestamp application
+
 from datetime import datetime, timezone
 from flask import Flask, request, jsonify
 import os
