@@ -68,3 +68,6 @@ terraform init
 terraform plan
 terraform apply
 ```
+After the terraform apply, you will get the ALB to visit
+
+**Note:  The ECS may take few minutes to get up and running, so be patient.**
